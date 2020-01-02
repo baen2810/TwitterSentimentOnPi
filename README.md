@@ -1,7 +1,6 @@
 # TwitterSentimentOnPi
 
 An (almost) complete pipeline of machine-learning preprocessing and  to analyze sentiments on twitter data pulled continually using a Raspberry Pi.
-If you want to use factory_bot with Rails, see
 
 
 Documentation
