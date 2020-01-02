@@ -10,7 +10,7 @@ Documentation
 * For setting up a Twitter dev account and getting access to the API see Marcello's introduction (link below)
 * All jobs fire up as a standalone while-True loop
 * Collect jobs should be executed on Raspberry Pi (jobs A, B, C can be run in parallel)
-* All jobs create their own input and output directories where they pick up input data from the previous job and store output data for the following job; processed input data will be stored in ./_processed
+* All jobs create their own input and output directories where they pick up input data from the previous job and store output data for the following job; processed input data will be stored in `./_processed`
 * Config.py for configuration of all jobs and filter_track.csv to define keywords to search twitter for
 
 
