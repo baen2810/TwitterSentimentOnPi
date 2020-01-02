@@ -33,9 +33,9 @@ pip install requirements.txt
 Usage
 --------
 
-Configure jobs using: config.py and filter_track.csv
+Configure jobs using config.py and filter_track.csv
 
-Start collect jobs on your Raspberry Pi, each in a separate shell:
+Start collect jobs on your Raspberry Pi each in a separate shell:
 
 ```Python
 python 01_collect_job_A.py
@@ -43,7 +43,7 @@ python 01_collect_job_B.py
 python 01_collect_job_C.py
 ```
 
-Start preprocessing jobs, each in a separate shell:
+Start preprocessing jobs on your analytics machine each in a separate shell:
 
 ```Python
 python 02_clean_job.py
