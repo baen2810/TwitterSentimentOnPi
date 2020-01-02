@@ -46,7 +46,6 @@ python 01_collect_job_C.py
 Start preprocessing jobs, each in a separate shell:
 
 ```Python
-python 01_collect_job_A.py
 python 02_clean_job.py
 python 04_translate_job.py
 python 05_sentiment_job.py
