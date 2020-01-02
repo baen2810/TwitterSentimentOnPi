@@ -1,0 +1,16 @@
+Link: https://towardsdatascience.com/almost-real-time-twitter-sentiment-analysis-with-tweep-vader-f88ed5b93b1c
+
+Supplementary material:
+
+More on Vader: https://medium.com/analytics-vidhya/simplifying-social-media-sentiment-analysis-using-vader-in-python-f9e6ec6fc52f
+Google Translate Python API: https://py-googletrans.readthedocs.io/en/latest/
+Tweepy Oauthentication tutorial: https://tweepy.readthedocs.io/en/v3.5.0/auth_tutorial.html#auth-tutorial
+How to register a twitter app: https://iag.me/socialmedia/how-to-create-a-twitter-app-in-8-easy-steps/
+WordCloud Project: https://amueller.github.io/word_cloud/generated/wordcloud.WordCloud.html
+WordCloud Project Stopwords feature: https://www.programcreek.com/python/example/103471/wordcloud.STOPWORDS
+Twitter sentiment analysis: https://www.analyticsvidhya.com/blog/2018/07/hands-on-sentiment-analysis-dataset-python/
+
+Todos:
+- Festplatte installieren und Transferjob
+- collect job: column 'filter_track' schon beim collecten anlegen, so dass sie auch dann existiert, wenn der befüllungsprozess nicht ausgeführt wird
+- clean job: Carrier-return funktioniert noch nicht immer ('\r\n' wird oft nicht gecleaned - wenn keine delimiter vorher und nachher stehen?)

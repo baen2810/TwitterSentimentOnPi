@@ -1,0 +1,7 @@
+spyder
+pandas
+vaderSentiment
+googletrans
+wordcloud
+tweepy
+emoji
