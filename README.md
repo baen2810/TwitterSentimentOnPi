@@ -35,7 +35,7 @@ Usage
 
 Configure jobs using: config.py and filter_track.csv
 
-Start collect jobs on your Raspberry Pi, each in a separate python console:
+Start collect jobs on your Raspberry Pi, each in a separate shell:
 
 ```Python
 python 01_collect_job_A.py
