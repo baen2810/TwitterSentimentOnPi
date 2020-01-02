@@ -2,6 +2,12 @@
 
 An (almost) complete pipeline of machine-learning preprocessing and  to analyze sentiments on twitter data pulled continually using a Raspberry Pi.
 
+The general idea is:
+* Collect live data using a Raspberry Pi via Tweepy Twitter API
+* Cache data on Pi
+* Transfer data to analytics machine
+* Process data on on analytics machine using a pipeline of several preprocessing and analytics jobs written in Python
+
 
 Documentation
 -------------
@@ -37,7 +43,7 @@ python 01_collect_job_B.py
 python 01_collect_job_C.py
 ```
 
-Start preprocessing jobs, each in a separate python console:
+Start preprocessing jobs, each in a separate shell:
 
 ```Python
 python 01_collect_job_A.py
@@ -46,6 +52,12 @@ python 04_translate_job.py
 python 05_sentiment_job.py
 python 100_analysis_job.py
 ```
+
+Each job will
+* wait for input data
+* process incoming data
+* move processed input data to `./_processed`
+* write output data
 
 More Information
 ----------------
